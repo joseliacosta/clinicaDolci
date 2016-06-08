@@ -1,0 +1,831 @@
+	/*general */
+	body {
+	  font-family: 'Lato', sans-serif;
+	  padding-top: 100px;
+	}
+
+	body .middle-content {
+	  font-size: 18px;
+	  line-height: 1.6em;
+	}
+
+
+
+	.logo{
+		margin:0;
+		text-indent: -9999px;
+		background:transparent url(../images/logo-dolci.png) 0 0  no-repeat;
+		overflow: hidden;
+		-webkit-background-size: 100% auto;
+		-moz-background-size: 100% auto;
+		background-size: 100% auto;	
+		display: block;
+	}
+
+	.logo a{
+		display:block;
+		width: 100%;
+		height: 100%;
+	}
+
+
+	.navbar-inner{
+		padding: 12px 0;
+	}
+
+	.navbar-default .navbar-nav>li>a{
+		margin-top: 10px;
+	}
+
+	.navbar-toggle{
+		margin-top: 12px;
+	}
+
+	.navbar{
+		font-style: italic;
+	}
+
+	/* Config Menu Colors*/
+	.navbar-default {
+	    background-color: #1ea192;
+	    border-color: #1ea192;
+	}
+	.navbar-default .navbar-brand {
+	    color: #fff;
+	}
+	.navbar-default .navbar-brand:hover,
+	.navbar-default .navbar-brand:focus {
+	    color: #0c433d;
+	}
+	.navbar-default .navbar-nav > li > a {
+	    color: #fff;
+	}
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus {
+	    color: #0c433d;
+	}
+	.navbar-default .navbar-nav > .active > a, 
+	.navbar-default .navbar-nav > .active > a:hover, 
+	.navbar-default .navbar-nav > .active > a:focus {
+	    color: #0c433d;
+	    background-color: #23b5a4;
+	}
+	.navbar-default .navbar-nav > .open > a, 
+	.navbar-default .navbar-nav > .open > a:hover, 
+	.navbar-default .navbar-nav > .open > a:focus {
+	    color: #0c433d;
+	    background-color: #23b5a4;
+	}
+	.navbar-default .navbar-nav > .dropdown > a .caret {
+	    border-top-color: #fff;
+	    border-bottom-color: #fff;
+	}
+	.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+	.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+	    border-top-color: #0c433d;
+	    border-bottom-color: #0c433d;
+	}
+	.navbar-default .navbar-nav > .open > a .caret, 
+	.navbar-default .navbar-nav > .open > a:hover .caret, 
+	.navbar-default .navbar-nav > .open > a:focus .caret {
+	    border-top-color: #0c433d;
+	    border-bottom-color: #0c433d;
+	}
+	.navbar-default .navbar-toggle {
+	    border-color: #23b5a4;
+	}
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus {
+	    background-color: #23b5a4;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+	    background-color: #fff;
+	}
+
+	.jumbotron-cirurgia{
+	    text-align: center;
+	    background: #1f7f73 url(../images/bg-jumbotron-cirurgia.jpg) 0 0 no-repeat;
+	    -moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		color: #ebebeb;
+	}
+
+	.jumbotron-tratamento{
+	    text-align: center;
+	    background: #1f7f73 url(../images/bg-jumbotron-tratamento.jpg) 0 0 no-repeat;
+	    -moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		color: #ebebeb;
+	}
+
+	.jumbotron-convenio{
+	    text-align: center;
+	    background: #3d796e url(../images/bg-jumbotron-convenio.jpg) 0 0 no-repeat;
+	    -moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		color: #ebebeb;
+	}
+
+	.jumbotron p{
+	    font-family: 'Lato', sans-serif;
+	}
+
+	.jumbotron h1{
+	    font-family: 'Lato', sans-serif;
+	}
+
+	.bg-title-list{
+		background-color: #e7e7e7;
+	}
+
+	.cuidado-antes p{
+		list-style:disc outside none;
+	     display:list-item;
+	}
+
+	.lista-convenios img{
+		list-style: none;
+		float: left;
+		margin: 10px;
+	}
+
+	.container-equipe{
+		padding: 0;
+	}
+
+	.perfil-equipe{
+    width:80%;
+    min-width:270px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+.perfil-equipe h2{
+    text-shadow: 1px 1px 1px #fff;
+    font-size: 30px;
+	color: #198e81;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.perfil-equipe img{
+   margin-right: 10px;
+}
+
+	footer{
+		background-color: #d4e8e5;
+		padding: 0;
+		margin-top: 30px;
+		color:#106b60;
+	}
+
+	.phone-footer{
+		font-weight: 900;
+		font-size: 2em;
+		padding-top: 20px;
+	}
+
+	.phone-footer span, .adress-footer img{
+		margin-right: 10px;
+	}
+
+	.adress-footer{
+		margin: 20px 0;
+	}
+
+	.adress-footer p, .adress-footer a{
+		padding: 0;
+		margin: 0;
+		font-size: 1.2em;
+		font-style: italic;
+	}
+
+	.adress-footer a{
+		color:#106b60;
+		font-weight: 700;
+	}
+
+	.adress-footer a:hover{
+		color:#093b35;
+	}
+
+	.partners-footer{
+		margin: 20px 0;
+	}
+
+	.partners-footer a{
+		color:#106b60;
+		font-size: 1.2em;
+	}
+
+	.partners-footer a:hover{
+		color:#093b35;
+	}
+
+	.copyright{
+		background-color: #99beb9;
+		padding: 10px 0;
+		color: #3c3c3c;
+	}
+
+
+
+
+
+	#form-main{
+		width:100%;
+		float:left;
+		padding-top:0px;
+	}
+
+	#form-div {
+		background-color:#d7ece7;
+		padding:35px;
+		width: 650px;
+		margin:0 auto 0 auto;
+	  -moz-border-radius: 7px;
+	  -webkit-border-radius: 7px;
+	}
+
+	.feedback-input {
+		color:#3c3c3c;
+	  font-weight:500;
+		font-size: 18px;
+		border-radius: 0;
+		line-height: 22px;
+		background-color: #fbfbfb;
+		padding: 13px 13px 13px 54px;
+		margin-bottom: 10px;
+		width:100%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+	  border: 3px solid rgba(0,0,0,0);
+	}
+
+	.feedback-input:focus{
+		background: #fff;
+		box-shadow: 0;
+		border: 3px solid #29826e;
+		color: #29826e;
+		outline: none;
+	  padding: 13px 13px 13px 54px;
+	}
+
+	.focused{
+		color:#29826e;
+		border:#29826e solid 3px;
+	}
+
+	/* Icons ---------------------------------- */
+	#name{
+		background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+		background-size: 30px 30px;
+		background-position: 11px 8px;
+		background-repeat: no-repeat;
+	}
+
+	#name:focus{
+		background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+		background-size: 30px 30px;
+		background-position: 8px 5px;
+	  background-position: 11px 8px;
+		background-repeat: no-repeat;
+	}
+
+	#email{
+		background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+		background-size: 30px 30px;
+		background-position: 11px 8px;
+		background-repeat: no-repeat;
+	}
+
+	#email:focus{
+		background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+		background-size: 30px 30px;
+	  background-position: 11px 8px;
+		background-repeat: no-repeat;
+	}
+
+	#comment{
+		background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+		background-size: 30px 30px;
+		background-position: 11px 8px;
+		background-repeat: no-repeat;
+	}
+
+	textarea {
+		width: 100%;
+		height: 150px;
+		line-height: 150%;
+	}
+
+	input:hover, textarea:hover,
+	input:focus, textarea:focus {
+		background-color:white;
+	}
+
+	#button-blue{
+		float:left;
+		width: 100%;
+		border: #fbfbfb solid 4px;
+		cursor:pointer;
+		background-color: #29826e;
+		color:white;
+		font-size:24px;
+		padding-top:22px;
+		padding-bottom:22px;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+	  margin-top:-4px;
+	  font-weight:700;
+	}
+
+	#button-blue:hover{
+		background-color: rgba(0,0,0,0);
+		color: #29826e;
+	}
+		
+	.submit:hover {
+		color: #29826e;
+	}
+		
+	.ease {
+		width: 0px;
+		height: 74px;
+		background-color: #fbfbfb;
+		-webkit-transition: .3s ease;
+		-moz-transition: .3s ease;
+		-o-transition: .3s ease;
+		-ms-transition: .3s ease;
+		transition: .3s ease;
+	}
+
+	.submit:hover .ease{
+	  width:100%;
+	  background-color:white;
+	}
+
+
+		/* Carousel base class */
+	.carousel {
+	  height: 440px;
+	}
+
+	.slide-responsive-familia{
+		display: block;
+	  height: auto;
+	  max-width: 100%;
+	  margin: auto;
+	  margin-top: 30px;
+	}
+
+	.slide-responsive-mulher{
+		display: block;
+	  height: auto;
+	  max-width: 100%;
+	}
+
+	.texto-mulher{
+		float:left;
+		display: block;
+		width: 40%;
+		text-align: right;
+		margin:120px 80px 0 0;
+		line-height: 1.5em;
+		font-size: 44px;
+	}
+	/* Since positioning the image, we need to help out the caption */
+	.carousel-caption {
+	  z-index: 10;
+	  position: absolute;
+	  bottom: -30px;
+	  color: #106b60;
+	  font-weight: bold;
+	  text-shadow:none;
+	}
+
+	/* Declare heights because of positioning of img element */
+	.carousel .item {
+	  height: 440px;
+	}
+	.carousel-inner > .item > img {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  min-width: 100%;
+	  height: 440px;
+	}
+
+	.bts-destaque-home{
+		margin: auto;
+		width: 960px;
+	}
+
+	.bts-destaque-home a{
+		float:left;
+		text-decoration: none;
+		color: #106b60;
+		text-align: center;
+		background-color: #effcfa;
+		padding-bottom: 15px;
+	}
+
+	.bts-destaque-home a img{
+		display: block;
+	  	height: auto;
+	  	max-width: 100%;
+	}
+
+@media screen and (max-width: 360px){
+	.perfil-equipe h2{
+		font-size:19px;
+	}
+
+
+.perfil-equipe img{
+    margin:0 0 20px 35px;
+}
+
+.slide-responsive-familia{
+	display: block;
+	  height: auto;
+	  max-width: 180%;
+	  margin-left:-80px;
+}
+
+.texto-familia {
+	  font-size:16px;
+	  margin-bottom:0px;
+	}
+
+}
+
+	@media only screen and (max-width: 580px) {
+		#form-div{
+			left: 3%;
+			margin-right: 3%;
+			width: 88%;
+			margin-left: 0;
+			padding-left: 3%;
+			padding-right: 3%;
+		}
+
+		.texto-mulher{
+		float:none;
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin-bottom:30px;
+		line-height: 1.1em;
+		font-size: 33px;
+	}
+	.slide-responsive-mulher{
+		display: block;
+	  height: auto;
+	  max-width: 80%;
+	  margin:auto;
+	}
+
+	.texto-familia {
+	  font-size:26px;
+	  margin-bottom:0px;
+	}
+
+		.carousel-caption {
+	  bottom:-20px;
+	}
+
+	/* Declare heights because of positioning of img element */
+	.carousel {
+	  height: 400px;
+	}
+
+	.carousel .item {
+	  height: 400px;
+	}
+	.carousel-inner > .item > img {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  min-width: 100%;
+	  height: 400px;
+	}
+
+	}
+
+
+
+	/*responsive*/
+	@media(max-width: 532px){
+		.partners-footer{
+			display: none;
+		}
+
+		.img-responsive{
+			max-width: 40%;
+		}
+	}
+
+
+
+	@media(max-width:767px){
+		body {
+	  	padding-top: 60px;
+		}
+
+		body .middle-content {
+	  font-size: 14px;
+	  line-height: 1.4em;
+	}
+		.logo{
+			width: 240px;
+			height: 60px;
+			display: block;
+		}
+
+		.nav{
+			float:left;
+		}
+		.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	        color: #fff;
+	    }
+	    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+	        color: #0c433d;
+	    }
+	    .jumbotron-cirurgia p{
+	    margin:0;
+		}
+
+		.partners-footer{
+			display: none;
+		}
+
+		.jumbotron p{
+	    font-weight: 400;
+	}
+
+.texto-mulher{
+		float:none;
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin-bottom:30px;
+		line-height: 1.1em;
+		font-size: 33px;
+	}
+	.slide-responsive-mulher{
+		display: block;
+	  height: auto;
+	  max-width: 70%;
+	  margin:auto;
+	}
+
+
+
+		.carousel-caption {
+	  bottom:-20px;
+	}
+		.bts-destaque-home{
+		margin: auto;
+		width: 100%;
+	}
+
+	.bts-destaque-home a{
+		float:left;
+		text-decoration: none;
+		color: #106b60;
+		text-align: center;
+		background-color: #effcfa;
+		width: 100%;
+		border-bottom: 1px solid #ccc;
+		padding: 0;
+	}
+
+	.bts-destaque-home a img{
+		display: block;
+	  	height: auto;
+	  	max-width: 115px;
+	  	float:left;
+	}
+	
+		
+	}
+	@media(min-width:768px){
+		body {
+	  	padding-top: 60px;
+		}
+
+		.logo{
+			width: 150px;
+			height: 40px;
+			display: block;
+		}
+
+		.nav{
+			float:left;
+		}
+
+		.nav{
+			float:right;
+		}
+		.navbar-default .navbar-nav>li>a{
+		margin-top: 0px;
+		}
+		.navbar-inner{
+		padding-bottom: 0px;
+		}
+		.jumbotron-cirurgia p{
+	    margin:0 0 10px;
+		}
+
+		.partners-footer{
+			display: none;
+		}
+
+		.col-md-4{
+			float: left;
+			width: 350px;
+		}
+
+		.img-responsive{
+			max-width: 20%;
+		}
+
+		.bts-destaque-home{
+		margin: auto;
+		width: 100%;
+	}
+
+	.bts-destaque-home a{
+		float:left;
+		text-decoration: none;
+		color: #106b60;
+		text-align: center;
+		background-color: #effcfa;
+		padding-bottom: 15px;
+		max-width: 180px;
+	}
+
+	.bts-destaque-home a img{
+		display: block;
+	  	height: auto;
+	  	max-width: 100%;
+	}
+
+	
+
+.texto-mulher{
+		float:none;
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin-bottom:30px;
+		line-height: 1.1em;
+		font-size: 33px;
+	}
+	.slide-responsive-mulher{
+		display: block;
+	  height: auto;
+	  max-width: 70%;
+	  margin:auto;
+	}
+
+		.carousel-caption {
+	  bottom:-30px;
+	}
+}
+
+	@media(min-width:992px){
+		body {
+	  	padding-top: 80px;
+		}
+		.logo{
+			width: 240px;
+			height: 60px;
+		}
+
+		.navbar-default .navbar-nav>li>a{
+		font-size: 20px;
+		margin-top: 10px;
+		}
+		.navbar-inner{
+		padding-bottom: 12px;
+		}
+		.partners-footer{
+			display: inherit; 
+		}
+		.col-md-4 {
+	    width: 32%;
+	  	}
+
+	  	.img-responsive{
+			max-width: 20%;
+		}
+
+		.texto-mulher{
+		float:none;
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin-bottom:30px;
+		line-height: 1.1em;
+		font-size: 33px;
+	}
+	.slide-responsive-mulher{
+		display: block;
+	  height: auto;
+	  max-width: 55%;
+	  margin:auto;
+	}
+
+
+		.carousel-caption {
+	  bottom:-30px;
+	}
+
+	
+.bts-destaque-home{
+		margin: auto;
+		width: 960px;
+	}
+
+	.bts-destaque-home a{
+		float:left;
+		text-decoration: none;
+		color: #106b60;
+		text-align: center;
+		background-color: #effcfa;
+		padding-bottom: 15px;
+		max-width: 240px;
+	}
+
+	.bts-destaque-home a img{
+		display: block;
+	  	height: auto;
+	  	max-width: 100%;
+	}
+		
+	}
+	@media(min-width:1200px){
+		body {
+	  	padding-top: 100px;
+		}
+		.logo{
+			width: 300px;
+			height: 75px;
+		}
+
+	.texto-mulher{
+		float:left;
+		display: block;
+		width: 40%;
+		text-align: right;
+		margin:8% 20px 0 0;
+		line-height: 1.5em;
+		font-size: 40px;
+	}
+
+	.slide-responsive-mulher{
+		display: block;
+	  height: auto;
+	  max-width: 57%;
+	  float:right;
+	}
+
+		
+	}
+
+
+	.popover-content a{
+	background-color: #fff;
+	float:none;
+	padding: 0;
+
+}
+
+
+@media screen and (max-width: 360px){
+	
+
+.texto-familia {
+	  font-size:20px;
+	  margin-bottom:60px;
+	}
+
+	.texto-mulher{
+		 font-size:22px;
+	  margin-bottom:60px;
+	}
+
+}
