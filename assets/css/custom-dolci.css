@@ -333,9 +333,9 @@
 		background-color:white;
 	}
 
-	#button-blue{
+	.button-blue{
 		float:left;
-		width: 100%;
+		/*width: 100%;*/
 		border: #fbfbfb solid 4px;
 		cursor:pointer;
 		background-color: #29826e;
@@ -350,7 +350,7 @@
 	  font-weight:700;
 	}
 
-	#button-blue:hover{
+	.button-blue:hover{
 		background-color: rgba(0,0,0,0);
 		color: #29826e;
 	}
@@ -522,6 +522,30 @@
 	}
 
 	}
+
+
+
+	/* Midias */
+
+	.img-thumbnail{
+		width: 150px;
+		height: 150px
+	}
+
+	
+	.media .button-blue{
+		font-size: 18px;
+		padding: 10px;
+		margin-top: 15px;
+	}
+
+	
+	.media{
+		padding-bottom: 15px;
+		border-bottom: 1px solid #E7E7E7;
+
+	}
+
 
 
 
