@@ -94,6 +94,7 @@ $headers .= "From: ".$remetente."\r\n";
               </ul>
             </li>
             <li><a href="convenios.html">Convênios</a></li>
+            <li><a href="midias.html">Mídias</a></li>
             <li><a href="contato.html">Contato</a></li>
           </ul>
           </nav><!--/.nav-collapse -->
