@@ -362,6 +362,11 @@
 		background-color: rgba(0,0,0,0);
 		color: #29826e;
 	}
+	.media a:focus {
+		background-color:  #ffffff;
+		color: #29826e
+
+	}
 		
 	.submit:hover {
 		color: #29826e;
