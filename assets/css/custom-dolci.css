@@ -536,15 +536,21 @@
 	/* Midias */
 
 	.media .img-thumbnail{
-		width: 150px;
-		height: 150px
+		width: 145px;
+		height: 145px
 	}
 
 	
 	.media .button-blue{
+		min-width: 150px;
+		text-align: center;
 		font-size: 18px;
 		padding: 10px;
 		margin-top: 15px;
+	}
+
+	.media .media-heading{
+		font-size: 1.5em;
 	}
 
 	
