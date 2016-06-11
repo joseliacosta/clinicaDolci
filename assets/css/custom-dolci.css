@@ -187,13 +187,21 @@
 	}
 
 	.phone-footer{
-		font-weight: 900;
-		font-size: 2em;
+		font-weight: 900 ;
+		font-size: 1.5em;
 		padding-top: 20px;
 	}
 
 	.phone-footer span, .adress-footer img{
 		margin-right: 10px;
+	}
+
+	.phone-footer span:last-child{
+		padding-left:60px;
+	}
+
+	.phone-footer em{
+		font-weight: 400;
 	}
 
 	.adress-footer{
@@ -545,6 +553,7 @@
 		border-bottom: 1px solid #E7E7E7;
 
 	}
+
 
 
 
